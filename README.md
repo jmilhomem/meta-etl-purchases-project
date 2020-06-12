@@ -6,10 +6,6 @@
 
 ![alt text](https://geomarketing.com/wp-content/uploads/2015/12/purchase-path.png)
 
-## ETL Technologies:
-![alt text](https://pbs.twimg.com/media/DMWhhKFXcAAqxeu?format=jpg&name=small)
-![alt text](https://lh3.googleusercontent.com/proxy/XInMQCbDbrvA_LMvFm8Q_TeJdPEXEq4C1si2Vtzp9Ebcotp4MDynzxPrxXR5sZpNB4ZdQ4HQv_yqB9l2_WnGvLruuIGd3mtkPOOLriTuNMd-sBTEp1EDUcLikA)
-
 ## Data Files used as source:
 
 __transactions__ - contains transaction history for all customers for a period of at least 1 year prior to their offered incentive
@@ -40,6 +36,9 @@ https://www.kaggle.com/c/acquire-valued-shoppers-challenge/data?select=offers.cs
 
 
 ## Technical Description:
+
+![alt text](https://pbs.twimg.com/media/DMWhhKFXcAAqxeu?format=jpg&name=small)
+![alt text](https://lh3.googleusercontent.com/proxy/XInMQCbDbrvA_LMvFm8Q_TeJdPEXEq4C1si2Vtzp9Ebcotp4MDynzxPrxXR5sZpNB4ZdQ4HQv_yqB9l2_WnGvLruuIGd3mtkPOOLriTuNMd-sBTEp1EDUcLikA)
 
 The project is responsible to run the full data pipeline (the Python application + dbt):
 | Project | Description |
