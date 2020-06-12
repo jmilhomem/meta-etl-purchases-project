@@ -4,7 +4,7 @@
 > 1. Ingest the raw data from transactions.csv file
 > 2. Execute the full data pipeline: ingesting the transactions file data using Python + dbt process.
 
-![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdWHRgFOJ2-1cRjx4orF2Vp1jgLtMwxk58ayLZmb0ZedRmtjMazw&s)
+![alt text](https://geomarketing.com/wp-content/uploads/2015/12/purchase-path.png)
 
 
 ## Data Files used as source:
