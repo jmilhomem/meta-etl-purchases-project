@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "data-ingestion-purchases": "https://github.com/jmilhomem/data-ingestion-purchases.git",
+    "dbt_purchases_project": "https://github.com/jmilhomem/dbt_purchases_project.git"
+  }
+}
