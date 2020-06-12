@@ -45,8 +45,9 @@ The project is responsible to run the full data pipeline (the Python application
 
 ## Dependencies:
 To execute the full data pipeline (__data-ingestion-purchases/main_etl_processes.py__ application):
-* get dbt installed and the [dbt dbt_purchases_project cloned](https://github.com/jmilhomem/dbt_purchases_project) 
-* [python data-ingestion-purchases cloned](https://github.com/jmilhomem/data-ingestion-purchases) 
+* define a base folder for projects named as __repos__
+* get dbt installed 
+* projects cloned
 * a Postgres database instance created at AWS RDS.
 * config.ini file filled and available in __~/.config__ folder (Check the data-ingestion-purchases detailed information)
 * profiles.yml file filled and available in __~/.dbt__ folder (Check the dbt_purchases_project detailed information)
