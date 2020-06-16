@@ -37,11 +37,23 @@ https://www.kaggle.com/c/acquire-valued-shoppers-challenge/data?select=offers.cs
 
 ## Technical Description:
 
-The project is responsible to run the full data pipeline (the Python application + dbt):
+![alt text](.img/pipeline.png)
+
+The project is responsible to run the full data pipeline (the Python application + dbt transformation + dbt test) as following:
+1. Execute the __dbt seed__ to import the files.
+2. Drop the transaction raw table if it exists.
+3. Create the transaction raw table if it not exists.
+4. Ingest data from the csv file stored into __/data__ folder.
+5. Execute the __dbt run__ to execute the whole etl pipeline.
+6. Execute the __dbt test__ to execute the tests defined for the models.
+7. Remove temporary log files
+
+Check the projects below each repository.
+
 | Technology | Project | Description |
 | ------ | ------ | ------ |
-| ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyHZ2NYrS9J4TdreA31eou6fAWfNgQ1hUemZY_Klj2mNiaV2t43w&s) | [data-ingestion-purchases](https://github.com/jmilhomem/data-ingestion-purchases) | Project that ingests a large transaction csv file and executes the full data pipeline: ingests data + does the transformation for it|
 | ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYWYTxOJiMjop_GT6sDsXtMUpVyyw8HKyiENnbv2JsTJX_Fs8_lw&s) | [dbt_purchases_project](https://github.com/jmilhomem/dbt_purchases_project) | Project that execute the full data pipeline using dbt |
+| ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyHZ2NYrS9J4TdreA31eou6fAWfNgQ1hUemZY_Klj2mNiaV2t43w&s) | [data-ingestion-purchases](https://github.com/jmilhomem/data-ingestion-purchases) | Project that ingests a large transaction csv file and executes the full data pipeline: ingests data + does the transformation for it|
 
 ## Dependencies:
 To execute the full data pipeline (__data-ingestion-purchases/main_etl_processes.py__ application):
