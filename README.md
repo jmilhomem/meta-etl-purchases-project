@@ -1,6 +1,6 @@
 
 # Purchases Application processes
-> This application is responsible for:
+> This meta repo contains 2 main projects responsible for:
 > 1. Ingest the raw data from transactions.csv file
 > 2. Execute the full data pipeline: ingesting the transactions file data using Python + dbt process.
 
@@ -56,6 +56,9 @@ Check the projects below each repository.
 | ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyHZ2NYrS9J4TdreA31eou6fAWfNgQ1hUemZY_Klj2mNiaV2t43w&s) | [data-ingestion-purchases](https://github.com/jmilhomem/data-ingestion-purchases) | Project that ingests a large transaction csv file and executes the full data pipeline: ingests data + does the transformation for it|
 
 ## Dependencies:
+Meta Repo installed:
+* Check the https://github.com/mateodelnorte/meta  
+
 To execute the full data pipeline (__data-ingestion-purchases/main_etl_processes.py__ application):
 * define a base folder for projects named as __repos__
 * get dbt installed 
