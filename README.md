@@ -56,8 +56,8 @@ Check the projects below each repository.
 | ![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyHZ2NYrS9J4TdreA31eou6fAWfNgQ1hUemZY_Klj2mNiaV2t43w&s) | [data-ingestion-purchases](https://github.com/jmilhomem/data-ingestion-purchases) | Project that ingests a large transaction csv file and executes the full data pipeline: ingests data + does the transformation for it|
 
 ## Dependencies:
-Meta Repo installed:
-* Check the https://github.com/mateodelnorte/meta  
+Meta installed:
+* Check https://github.com/mateodelnorte/meta  
 
 To execute the full data pipeline (__data-ingestion-purchases/main_etl_processes.py__ application):
 * define a base folder for projects named as __repos__
