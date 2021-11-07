@@ -68,3 +68,8 @@ To execute the full data pipeline (__data-ingestion-purchases/main_etl_processes
 * profiles.yml file filled and available in __~/.dbt__ folder (Check the dbt_purchases_project detailed information)
 * python 3.6
 * make  
+
+## Run
+Start your python virtualenv with ```source .venv/bin/activate```
+
+* Run: ```make run``` to start the full ETL process as described on the [data-ingestion-purchases_project] (https://github.com/jmilhomem/data-ingestion-purchases)
