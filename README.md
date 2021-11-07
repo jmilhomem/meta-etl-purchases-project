@@ -72,4 +72,4 @@ To execute the full data pipeline (__data-ingestion-purchases/main_etl_processes
 ## Run
 Start your python virtualenv with ```source .venv/bin/activate```
 
-* Run: ```make run``` to start the full ETL process as described on the [data-ingestion-purchases_project] (https://github.com/jmilhomem/data-ingestion-purchases)
+* Run: ```make run``` to start the full ETL process as described on the [data-ingestion-purchases_project](https://github.com/jmilhomem/data-ingestion-purchases)
